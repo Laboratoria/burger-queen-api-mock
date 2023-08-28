@@ -2,106 +2,186 @@
   "orders": [
     {
       "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
+      "userId": "1",
+      "client": "Mislene",
       "products": [
         {
           "qty": 1,
           "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "id": "1",
+            "name": "Anéis de cebola",
+            "price": "5",
+            "image": "https://imgbox.com/bF8IBK4m",
+            "type": "Almoço",
+            "dataEntry": "2023-08-16 20:28:10"
           }
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "dateEntry": "2023-08-16 20:28:10",
+      "dateProcessed": "2023-08-17 16:00"
     },
     {
       "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
+      "userId": "2",
+      "client": "Vitória",
       "products": [
         {
           "qty": 2,
           "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
+            "id": "6",
+            "name": "Hambúrguer duplo",
+            "price": "15",
+            "image": "https://imgbox.com/6gp2IPLd",
+            "type": "Almoço",
+            "dataEntry": "2023-08-16 20:28:10"
           }
         }
       ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "status": "pending",
+      "dateEntry": "2023-08-16 20:28:10",
+      "dateProcessed": "2023-08-17 16:00"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "userId": "3",
+      "client": "Mo",
+      "products": [
+        {
+          "qty": 3,
+          "product": {
+            "id": "1",
+            "name": "Café Americano",
+            "price": "5",
+            "image": "https://imgbox.com/DCERopVE",
+            "type": "Café da manha",
+            "dataEntry": "2023-08-16 20:28:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2023-08-16 20:28:10",
+      "dateProcessed": "2023-08-17 16:00"
     }
+  ],
+  "products": [
+    [
+      {
+        "id": "1",
+        "name": "Café americano",
+        "price": "5",
+        "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
+        "type": "Café da manha",
+        "dataEntry": "2023-08-16 20:06:01"
+      },
+      {
+        "id": "2",
+        "name": "Café com leite",
+        "price": "7",
+        "image": "https://images2.imgbox.com/68/73/Rr42qohO_o.png",
+        "type": "Café da manha",
+        "dataEntry": "2023-08-16 20:16:04"
+      },
+      {
+        "id": "3",
+        "name": "Sanduíche de presunto e queijo",
+        "price": "10",
+        "image": "https://images2.imgbox.com/3f/08/m3deReIM_o.png",
+        "type": "Café da manha",
+        "dataEntry": "2023-08-16 20:17:08"
+      },
+      {
+        "id": "4",
+        "name": "Suco de fruta natural",
+        "price": "10",
+        "image": "https://images2.imgbox.com/1b/3d/MViIfsqP_o.png",
+        "type": "Café da manha",
+        "dataEntry": "2023-08-16 20:18:09"
+      },
+      {
+        "id": "5",
+        "name": "Hambúrguer simples",
+        "price": "10",
+        "image": "https://images2.imgbox.com/eb/22/y0IlDlgc_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:20:08"
+      },
+      {
+        "id": "6",
+        "name": "Hambúrguer duplo",
+        "price": "15",
+        "image": "https://images2.imgbox.com/1e/5e/6gp2IPLd_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:22:08"
+      },
+      {
+        "id": "7",
+        "name": "Batata frita",
+        "price": "5",
+        "image": "https://images2.imgbox.com/78/9d/0K72adUt_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:25:07"
+      },
+      {
+        "id": "8",
+        "name": "Anéis de cebola",
+        "price": "5",
+        "image": "https://images2.imgbox.com/26/18/bF8IBK4m_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:28:10"
+      },
+      {
+        "id": "9",
+        "name": "Água 500ml",
+        "price": "5",
+        "image": "https://images2.imgbox.com/17/f1/L0NYGzm8_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:30:41"
+      },
+      {
+        "id": "10",
+        "name": "Água 750ml",
+        "price": "7",
+        "image": "https://images2.imgbox.com/3d/2c/3vNXtRyI_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:32:14"
+      },
+      {
+        "id": "11",
+        "name": "Bebida gaseificada 500ml",
+        "price": "7",
+        "image": "https://images2.imgbox.com/5a/fa/CP7KFXlm_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:33:32"
+      },
+      {
+        "id": "12",
+        "name": "Bebida gaseificada 750ml",
+        "price": "10",
+        "image": "https://images2.imgbox.com/5a/fa/CP7KFXlm_o.png",
+        "type": "Almoço",
+        "dataEntry": "2023-08-16 20:35:02"
+      }
+    ]
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
+      "email": "garconente@burguerMV.com",
+      "password": "$2a$10$/VZsgjQ7ztMtO4cEiYkADuXWlJRp79s82jVEVkcSR1Fr8LxzXzDYC",
+      "role": "service",
       "id": 1
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
+      "email": "cozinheiro@burguerMV.com",
+      "password": "$2a$10$35Iswv/kwaUYDD8c8kTnkevSCI2etUqjy7atdG80XMjg5XGNAYz.2",
+      "role": "chefe",
       "id": 2
+    },
+    {
+      "email": "administrador@burguerMV.com",
+      "password": "$2a$10$/xHIoXvgEBpG4KSMgBuhN.tS5WnoMDolpg.y2xj77wvSGQv6kUvNu",
+      "role": "admin",
+      "id": 3
     }
   ]
 }
